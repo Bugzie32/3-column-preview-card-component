@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: "Big Shoulders Display", cursive;
+	font-family: "Lexend Deca", sans-serif;
+	height: 100vh;
+}
+
+.section {
+}
+.cars {
+	width: 30%;
+	display: inline-block;
+}
+
+button {
+	font-family: "Lexend Deca", sans-serif;
+}
+
+.sedans {
+	background-color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+	background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+	background-color: hsl(179, 100%, 13%);
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
