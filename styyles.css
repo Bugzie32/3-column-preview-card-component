@@ -1,40 +1,102 @@
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
-
+/* font-family: "Lexend Deca", sans-serif; */
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
-body {
-	font-family: "Big Shoulders Display", cursive;
-	font-family: "Lexend Deca", sans-serif;
-	height: 100vh;
+:root {
+	font-size: 62.5%;
 }
 
-.section {
+body {
+	height: 100vh;
+	font-size: 1.6rem;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	/* max-width: 1440px; */
 }
 .cars {
-	width: 30%;
-	display: inline-block;
+	width: 22.5%;
+	padding: 5rem 5.5rem 6rem;
+	color: white;
 }
 
-button {
+h1 {
+	font-family: "Big Shoulders Display", cursive;
+	font-size: 4rem;
+	padding: 2.5rem 0;
+	font-weight: 700;
+}
+
+.cars p {
+	line-height: 2em;
+	font-family: "Lexend Deca", sans-serif;
+	font-size: 400;
+	padding-bottom: 12rem;
+}
+
+.cars a {
+	background-color: white;
+	padding: 1em 2.5em;
+	border-radius: 50px;
+	text-decoration: none;
 	font-family: "Lexend Deca", sans-serif;
 }
 
 .sedans {
 	background-color: hsl(31, 77%, 52%);
+	border-radius: 10px 0 0 10px;
+}
+
+.sedans a {
+	color: hsl(31, 77%, 52%);
+}
+
+.sedans a:hover {
+	background-color: hsl(31, 77%, 52%);
+	color: white;
+	border: 1px white solid;
 }
 
 .suvs {
 	background-color: hsl(184, 100%, 22%);
 }
 
+.suvs a {
+	color: hsl(184, 100%, 22%);
+}
+
+.suvs a:hover {
+	background-color: hsl(184, 100%, 22%);
+	color: white;
+	border: 1px white solid;
+}
+
 .luxury {
 	background-color: hsl(179, 100%, 13%);
+	border-radius: 0 10px 10px 0;
+}
+
+.luxury a {
+	color: hsl(179, 100%, 13%);
+}
+
+.luxury a:hover {
+	background-color: hsl(179, 100%, 13%);
+	color: white;
+	border: 1px white solid;
 }
 
 .attribution {
+	padding-top: 2rem;
 	font-size: 11px;
 	text-align: center;
 }
