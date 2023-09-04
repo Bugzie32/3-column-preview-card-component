@@ -124,6 +124,10 @@ h1 {
 		min-width: 324px;
 	}
 
+	.cars p {
+		margin-bottom: 2em;
+	}
+
 	.sedans {
 		border-radius: 10px 10px 0 0;
 	}
